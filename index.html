@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+      <p>A simple beginner website made with HTML, CSS, and JavaScript.</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About This Site</h2>
+        <p>
+          This website is a basic example of how webpages are structured.
+          It has a title, sections, links, styling, and a button that uses JavaScript.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+          <h3>Project One</h3>
+          <p>This could be a description of a small coding project.</p>
+        </div>
+
+        <div class="card">
+          <h3>Project Two</h3>
+          <p>This could be a description of another project.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by me</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
