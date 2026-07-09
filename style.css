@@ -1,1 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
 
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+nav {
+  background-color: #34495e;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 80%;
+  margin: 30px auto;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #e8f0fe;
+  padding: 15px;
+  margin-top: 10px;
+  border-left: 5px solid #3498db;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
