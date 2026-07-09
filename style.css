@@ -3,4 +3,8 @@ header {
   color: white; 
   text-align: left; 
   padding: 10px 20px 30px 40px;
+
+  display: flex;
+  align-items: left;
+  justify-content: left; 
 }   
